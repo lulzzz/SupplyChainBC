@@ -1,0 +1,33 @@
+{
+  "name": "supplychainbc",
+  "description": "This is a Supply Chain proof of concept using Ethereum Blockchain, Express and NodeJS",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "truffle test"
+  },
+  "keywords": [
+    "Blockchain",
+    "Ethereum",
+    "Truffle",
+    "Web3",
+    "Express",
+    "Proof of Concept",
+    "Supply Chain",
+    "NodeJS"
+  ],
+  "author": "Christophe Demangeot",
+  "license": "GNU",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ethereumjs-testrpc": "^3.0.3",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "serve-favicon": "~2.4.2",
+    "truffle": "^3.2.1"
+  }
+}
