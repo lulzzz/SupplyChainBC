@@ -6,7 +6,20 @@ block content
     .container
       .row
         .col-md-3
-          | Content1
+          .row(id='BC_StatusOnline', class='display:none;')
+            .col-md-6
+              img(src='/images/NetworkOnline.gif', alt='Blockchain is Online', class='img-responsive img-rounded')
+            .col-md-6
+              | Node Status
+              br
+              | Online
+          .row(id='BC_StatusOffline', class='display:none;')
+            .col-md-6
+              img(src='/images/NetworkOnline.gif', alt='Blockchain is Online', class='img-responsive img-rounded')
+            .col-md-6
+              | Node Status
+              br
+              | Offline              
         .col-md-3
           | Content2
         .col-md-3
