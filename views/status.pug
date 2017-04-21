@@ -2,4 +2,17 @@ extends layout
 
 block content
   .container(style='padding-top:80px;')
-    h1 Ethereum TestRPC Status
+    h1= title
+    .container
+      .row
+        .col-md-3
+          | Content1
+        .col-md-3
+          | Content2
+        .col-md-3
+          | Content3
+        .col-md-3
+          | Content4
+
+block jsInclude
+     script(src='/javascripts/page.status.js')
